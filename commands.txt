@@ -1,0 +1,7 @@
+
+
+
+https://tanstack.com/query/latest/docs/framework/react/installation
+
+
+https://www.npmjs.com/package/react-native-reanimated-carousel

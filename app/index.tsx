@@ -1,14 +1,6 @@
-import React from 'react';
-import { Text, View } from 'react-native';
+import { Redirect } from 'expo-router';
 
-const HomePage = () => {
-    return (
-        <View className="flex-1 items-center justify-center bg-white">
-            <Text className="text-xl font-bold text-blue-500">
-                Welcome to Movies App!
-            </Text>
-        </View>
-    );
+const MoviesApp = () => {
+    return <Redirect href="/home" />;
 };
-
-export default HomePage;
+export default MoviesApp;

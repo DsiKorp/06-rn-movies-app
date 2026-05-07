@@ -1,18 +1,25 @@
+import {
+  QueryClient,
+  QueryClientProvider
+} from '@tanstack/react-query';
 import { Stack } from 'expo-router';
 import React from 'react';
+
 import "../global.css";
+
+// Create a client
+const queryClient = new QueryClient();
 
 const RootLayout = () => {
   return (
-    <Stack>
-      <Stack.Screen
-        name="index"
-        options={{
-          title: 'Home',
+    <QueryClientProvider client={queryClient}>
+      <Stack
+        screenOptions={{
           headerShown: false,
         }}
       />
-    </Stack>
+    </QueryClientProvider>
+
   );
 };
 
