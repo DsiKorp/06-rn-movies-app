@@ -21,10 +21,10 @@ const MovieHeader = ({ poster, originalTitle, title }: Props) => {
 
   return (
     <>
-      {/* Gradiente */}
+      {/* Gradiente para porder ver la flecha blanca volver*/}
       <LinearGradient
         colors={['rgba(0,0,0,0.3)', 'transparent']}
-        start={[0, 0]}
+        start={[0, 0]} //x, y
         style={{
           height: screenHeight * 0.4,
           position: 'absolute',

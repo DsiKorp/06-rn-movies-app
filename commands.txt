@@ -6,5 +6,7 @@ https://tanstack.com/query/latest/docs/framework/react/installation
 
 https://www.npmjs.com/package/react-native-reanimated-carousel
 
+https://docs.expo.dev/versions/latest/sdk/linear-gradient/
+
 
 sudo sysctl -p
